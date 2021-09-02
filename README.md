@@ -10,10 +10,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
 
-## Jij
+## Ik
 
 <details open>
-<summary>uitwerken voor kick-off werkgroep</summary>
+<summary>Hier zal mijn gehele process gedurende vak terug te vinden zijn.</summary>
 
 ### Auteur:
 Michel Wassing
@@ -22,7 +22,7 @@ Michel Wassing
 Zwarte piste
 
 #### Je focus:
-Als enthousiaste leerling wil ik beide responsive als surface plane proberen
+Als enthousiaste leerling wil ik beide responsive als surface plane proberen.
  
 </details>
 
@@ -30,21 +30,21 @@ Als enthousiaste leerling wil ik beide responsive als surface plane proberen
 
 
 
-## Je website
+## Crunchyroll
 
 <details open>
-<summary>uitwerken voor kick-off werkgroep</summary>
+<summary>Gezien ik erg hou van het kijken naar anime wil ik crunchyroll na maken</summary>
 
 ### Je opdracht:
 link naar de website die je gaat namaken óf de naam/omschrijving van je eigen ontwerp
 
 #### Screenshot(s) van de eerste pagina (small screen): 
-hier de naam van de pagina  
-<img src="images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+Hoofdpagina Crunchyroll (app, website niet compatible)  
+<img src="images/index.jpg" width="375px" alt="Landing scherm">
 
 #### Screenshot(s) van de tweede pagina (small screen):
-hier de naam van de pagina  
-<img src="images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+Genre pagina Crunchyroll  
+<img src="images/genres.jpg" width="375px" alt="Genre keuze pagina">
  
 </details>
 
