@@ -40,11 +40,11 @@ link naar de website die je gaat namaken óf de naam/omschrijving van je eigen o
 
 #### Screenshot(s) van de eerste pagina (small screen): 
 **Hoofdpagina Crunchyroll (app, website niet compatible)**  
-<img src="images/index.jpg" width="375px" alt="Landing scherm">
+<img src="images/home.png" width="375px" alt="Home scherm">
 
 #### Screenshot(s) van de tweede pagina (small screen):
 **Genre pagina Crunchyroll**  
-<img src="images/genres.jpg" width="375px" alt="Genre keuze pagina">
+<img src="images/maleshop.png" width="375px" alt="Mannen winkel pagina">
  
 </details>
 
