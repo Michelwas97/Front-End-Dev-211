@@ -58,7 +58,7 @@ link naar de website die je gaat namaken óf de naam/omschrijving van je eigen o
 <summary>uitwerken na afloop 2e werkgroep</summary>
 
 ### de hele pagina: 
-<img src="images/breakdown_schets_home" width="375px" alt="breakdown van de hele home pagina">
+<img src="images/breakdown_schets_home.png" width="375px" alt="breakdown van de hele home pagina">
 
 ### dynamisch deel (bijv menu): 
 <img src="images/Artboard_Cpy.png" width="375px" alt="breakdown van een dynamisch deel">
