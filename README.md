@@ -60,8 +60,11 @@ link naar de website die je gaat namaken óf de naam/omschrijving van je eigen o
 ### de hele pagina: 
 <img src="images/breakdown_schets_home.png" width="375px" alt="breakdown van de hele home pagina">
 
-### dynamisch deel (bijv menu): 
+### Scherm 2: 
 <img src="images/Artboard_Copy.png" width="375px" alt="breakdown van een dynamisch deel">
+
+### Menu (home) collapsed: 
+<img src="images/menu_collapsed.png" width="375px" alt="breakdown van een dynamisch deel">
 
 </details>
 
