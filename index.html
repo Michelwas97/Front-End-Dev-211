@@ -8,13 +8,13 @@
 	
 	<title>Gymshark namaak</title>
 	
+	<!-- <link href="styles/fonts.css" rel="stylesheet"> -->
 	<link href="styles/style.css" rel="stylesheet">
 	<!-- favicon source: https://nl.gymshark.com/ -->
 	<link rel="icon" type="image/svg+xml" href="images/Favicon-White-Circle_57x57.webp">
 </head>
 
 <body>
-
 	<header>
 		<nav>
 			<ul>
@@ -24,67 +24,72 @@
 				<li><button></button></li>
 			</ul>
 			<ul>
-				<li><a href="#">Shop new mens</a></li>
-				<li><a href="#">Shop new womans</a></li>
+				<a href="#"><li>Shop new mens</li></a>
+				<a href="#"><li>Shop new womans</li></a>
 			</ul>
 		</nav>
-
-	<!-- Female preview header -->
-
-		<figure>
-			<img src="#" alt="Previewer gym apparel">
-			<figcaption>
-				<h1>All new adapt</h1>
-				<p>Feel good, perform better.</p>
-				<a href="#">Shop now</a>
-			</figcaption>
-		</figure>
 	</header>
 
 	<!-- start Main -->
-
 	<main>
-
-		<!-- Female products section -->
-		<section>
-			<p>Womans</p>
-			<h2>New releases</h2>
-			<a href="">View all</a>
-
+		
+		<section class="previewer-large">
+			<figure>
+				<img src="images/Whitney_Mobile_Banners_DUTCH_750x.jpeg" alt="Previewer gym apparel">
+				<figcaption>
+					<h1>Gymshark x <span>Whitney Simmons</span></h1>
+					<p>Embrace your journey in the new collection.</p>
+					<a href="#">Shop now</a>
+				</figcaption>
+			</figure>
+		</section>
+		
+		
+		<section class="product-highlight">
+			<!-- Usage of div is only used for the sake of positioning and grouping -->
+			<div>
+				<p>Womans</p>
+				<h2>Whitney simmons</h2>
+				<a href="#">View all</a>
+			</div>
+			
 			<ul class="previewer-small">
-				<li>
-					<figure>
-						<img src="" alt="">
-						<figcaption>
-							<p>new</p>
-							<h3>Adapt Animal Seamless Zip Up</h3>
-							<p>Butterfly | Grey</p>
-							<p class="price">65€</p>
-						</figcaption>
-					</figure>
-				</li>
-
-				<li>
-					<figure>
-						<img src="" alt="">
-						<figcaption>
-							p>new</p>
-							<h3>Adapt Animal Seamless Zip Up</h3>
-							<p>Butterfly | Grey</p>
-							<p class="price">65€</p>
-						</figcaption>
-					</figure>
-				</li>
+				<a href="#">
+					<li>
+						<figure>	
+							<img src="images/WhitneyV3SportsBraDandelionBrownGLSB555771.A_GB_EDITTIFF_IS_2d9f1640-7274-425c-9a16-cdfa9ce8b305_800x.jpg" alt="Sportsbra preview grey for 65 euro's">
+							<figcaption>
+								<p>new</p>
+								<h3>Whitney Mesh Sports Bra</h3>
+								<p>Dandelion Brown</p>
+								<p class="price">65€</p>
+							</figcaption>
+						</figure>
+					</li>
+				</a>
 				
+				<a href="#">
+					<li>
+						<figure>
+							<img src="images/WhitneyV3LeggingBlack2GLLG555538.ATIFF_IS_ec06c717-0d6f-4dde-8de5-5bdba305af59_800x.jpg" alt="Sports legging preview black for 55 euro's">
+							<figcaption>
+								<p>new</p>
+								<h3>Whitney Mesh Leggings</h3>
+								<p>Black</p>
+								<p class="price">55€</p>
+							</figcaption>
+						</figure>
+					</li>
+				</a>
 			</ul>
 		</section>
 
-		<!-- Male previewer -->
+		
 		<section class="previewer-large">
 			<figure>
-				<img src="#" alt="previewer gym apparel">
+				<img src="images/Mobile_Mens_2_64a803de-31d8-4220-b359-574a68455215_750x.jpeg" alt="previewer gym apparel">
 				<figcaption>
-					<!-- same size as h1 -->
+					
 					<h2>Power Built On Precision</h2>
 					<p>The latest in 315.</p>
 					<a href="#">Shop now</a>
@@ -92,8 +97,8 @@
 			</figure>
 		</section>
 
-		<!-- Male products section -->
-		<section>
+		
+		<section class="product-highlight">
 			<p>Mens</p>
 			<h2>New releases</h2>
 			<a href="">View all</a>
@@ -125,11 +130,10 @@
 			</ul>
 		</section>
 
-		<section class="previewer-large">
+		<!-- <section class="previewer-large">
 			<figure>
 				<img src="#" alt="previewer gym apparel">
 				<figcaption>
-					<!-- same size as h1 -->
 					<h2>Whatever we do, we do it together</h2>
 					<p>From online communities to proud friends pushing for a PB, the people by our side help us go further together.</p>
 					<a href="#">Shop now</a>
@@ -138,11 +142,9 @@
 		</section>
 
 		<section>
-			<!-- double img previewer -->
 			<figure id="previewer-double">
 				<img src="#" alt="previewer gym apparel">
 				<figcaption>
-					<!-- same size as h1 -->
 					<h2>Shop womans</h2>
 					<a href="#">Explore</a>
 				</figcaption>
@@ -150,14 +152,12 @@
 			<figure id="previewer-double">
 				<img src="#" alt="previewer gym apparel">
 				<figcaption>
-					<!-- same size as h1 -->
 					<h2>Shop mens</h2>
 					<a href="#">Explore</a>
 				</figcaption>
 			</figure>
 		</section>
 
-		<!-- discount slider with article -->
 		<ul>
 			<li>
 				<h2>Student discount</h2>
@@ -185,7 +185,6 @@
 		</section>
 
 		<section>
-			<!-- help and pages buttons -->
 			<ul>
 				<a href=""><li>Help<button>+</button></li></a>
 				<a href=""><li>Pages<button>+</button></li></a>
@@ -193,7 +192,6 @@
 
 			<h3>More about gymshark</h3>
 
-			<!-- blog and mail links -->
 			<a href="">
 				<figure>
 					<img src="" alt="">
@@ -208,7 +206,6 @@
 				</figure>
 			</a>
 
-			<!-- social links -->
 			<ul>
 				<li><a href=""><img src="" alt=""></a></li>
 				<li><a href=""><img src="" alt=""></a></li>
@@ -218,7 +215,6 @@
 				<li><a href=""><img src="" alt=""></a></li>
 			</ul>
 
-			<!-- terms of use, etc. links -->
 			<ul>
 				<li><a href="">Terms & conditions</a></li>
 				<li><a href="">Terms of use</a></li>
@@ -227,7 +223,6 @@
 				<li><a href="">Modern Slavery</a></li>
 			</ul>
 
-			<!-- payment methods-->
 			<ul>
 				<li><img src="" alt=""></li>
 				<li><img src="" alt=""></li>
@@ -238,7 +233,7 @@
 			
 			<p>© 2021 | Gymshark Limited | All Rights Reserved | Be a visionary</p>
 		</section>
-	</footer>
+	</footer> -->
 
 	<script src="scripts/script.js"></script>
 </body>
