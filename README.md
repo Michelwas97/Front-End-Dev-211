@@ -22,7 +22,7 @@ Michel Wassing
 Zwarte piste
 
 #### Je focus:
-Als enthousiaste leerling wil ik beide responsive als surface plane proberen.
+Als enthousiaste leerling wil ik beide responsive als surface plane proberen. Surface plan is daarin mijn prioriteit.
  
 </details>
 
