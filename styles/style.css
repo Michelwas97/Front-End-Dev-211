@@ -238,6 +238,7 @@ p {
 }
 
 a {
+  font-family: "Montserrat";
   color: black;
   text-decoration: none;
 }
@@ -267,6 +268,8 @@ Above is the tweaked version of the reset css to my whishes
 Styling header and section
 
 */
+
+/* Start navigation css */
 
 nav {
   display: flex;
@@ -310,9 +313,6 @@ nav ul:nth-of-type(2) > a {
 }
 
 .previewer-large {
-  /* width: 100%;
-  height: auto; */
-
   margin: 2rem 0 2rem;
 }
 
@@ -331,10 +331,10 @@ nav ul:nth-of-type(2) > a {
   height: 75%;
   z-index: 1;
 
-  background: linear-gradient(to bottom,rgba(255,255,255,0) 0,rgba(0,0,0,.8) 100%);
+  background: linear-gradient(to bottom,rgba(255,255,255,0) 0,rgba(0,0,0,1) 100%);
 }
 
-.previewer-large figure img {
+.previewer-large figure img, video {
   width: 100%;
 }
 
@@ -352,7 +352,7 @@ nav ul:nth-of-type(2) > a {
   margin-bottom: 1rem;
 }
 
-.previewer-large figure figcaption h1 span {
+span {
   display: block;
 }
 
@@ -366,7 +366,14 @@ nav ul:nth-of-type(2) > a {
   border-radius: 3rem;
 
   background-color: white;
+
+  font-size: 1.3rem;
+  font-weight: 700;
+
+  text-transform: uppercase;
 }
+
+/* double product highlight section */
 
 .product-highlight {
   padding: 0 2rem;
@@ -374,6 +381,10 @@ nav ul:nth-of-type(2) > a {
 
 .product-highlight div {
   margin-bottom: 2rem;
+}
+
+.product-highlight div > p {
+  text-transform: uppercase;
 }
 
 .product-highlight p:first-of-type {
@@ -414,7 +425,7 @@ nav ul:nth-of-type(2) > a {
   text-decoration: none;
 }
 
-.previewer-small a:first-of-type {
+.previewer-small a {
   margin-right: 1rem;
 }
 
@@ -422,3 +433,80 @@ nav ul:nth-of-type(2) > a {
   width: 100%;
 }
 
+/* double preview css */
+.previewer-double {  
+  margin: 0 2rem;
+
+  overflow: hidden;
+}
+
+.previewer-double figure {
+  position: relative;
+  margin-bottom: 1rem;
+
+  width: 100%;
+
+  text-transform: uppercase;
+}
+
+.previewer-double figure > img {
+
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.previewer-double > figure:first-of-type figcaption {
+  position: absolute;
+  bottom: 7rem;
+  right: 1rem;
+
+  color: white;
+}
+
+.previewer-double > figure:first-of-type figcaption h2 {
+  position: absolute;
+  bottom: 3rem;
+  right: 1rem;
+
+  font-size: 3.2rem;
+  line-height: 3.8rem;
+
+  margin-bottom: 3rem;
+  text-align: right;
+}
+
+.previewer-double > figure:last-of-type figcaption {
+  position: absolute;
+  bottom: 7rem;
+  left: 1rem;
+
+  color: white;
+}
+
+.previewer-double > figure:last-of-type figcaption h2 {
+  font-size: 3.2rem;
+
+  line-height: 3.8rem;
+  margin-bottom: 3rem;
+}
+
+.previewer-double figure figcaption a {
+  padding: 1.5rem 3rem;
+
+  border-radius: 3rem;
+
+  background-color: white;
+
+  font-size: 1.3rem;
+  font-weight: 700;
+
+  text-transform: uppercase;
+}
+
+/* informationslider css  */
+
+.info-slider {
+  display: flex;
+  overflow: scroll;
+}
