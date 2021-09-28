@@ -360,10 +360,10 @@ span {
   margin-bottom: 3rem;
 }
 
-.previewer-large figure figcaption a {
+.cta-btn {
   padding: 1.5rem 3rem;
 
-  border-radius: 3rem;
+  border-radius: 5rem;
 
   background-color: white;
 
@@ -494,22 +494,54 @@ span {
   margin-bottom: 3rem;
 }
 
-.previewer-double figure figcaption a {
-  padding: 1.5rem 3rem;
-
-  border-radius: 3rem;
-
-  background-color: white;
-
-  font-size: 1.3rem;
-  font-weight: 700;
-
-  text-transform: uppercase;
-}
-
 /* informationslider css  */
 
 .info-slider {
+  padding: 3rem 2rem;
+  background-color: #ececec;
+}
+
+.info-slider ul {
   display: flex;
   overflow: scroll;
+}
+
+.info-slider ul li {
+  padding: 3rem 1rem;
+  margin-right: 1rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  flex: 1 1 0px;
+
+  min-width: 29.5rem;
+}
+
+.info-slider ul li:first-of-type {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/Payment_Method_720x.webp);
+}
+
+.info-slider ul li:nth-of-type(2) {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/Student_Discount_Banner_720x.webp);
+}
+
+.info-slider ul li:last-of-type {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/Student_Discount_fcba4a9c-f36b-4e4e-8e2f-95113efa3edb_720x.webp);
+}
+
+
+.info-slider ul li a h2 {
+  color: #fff;
+  margin-bottom: 2rem;
+}
+
+article {
+  padding: 0 2rem;
+
+  border: 1px black;
 }
