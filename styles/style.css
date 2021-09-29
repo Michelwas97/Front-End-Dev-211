@@ -541,7 +541,22 @@ span {
 }
 
 article {
-  padding: 0 2rem;
+  padding: 2.4rem;
+  margin: 1.6rem;
 
-  border: 1px black;
+  border: .1rem solid #bbbcbc;
+}
+
+article h3 {
+  font-family: 'Montserrat', Helvetica;
+  font-size: 1.4rem;
+
+  font-weight: 700;
+}
+
+article p {
+  color: #6e6e6e;
+
+  font-family: 'Roboto', Helvetica;
+  font-size: 1.4rem;
 }
