@@ -373,7 +373,7 @@ span {
   text-transform: uppercase;
 }
 
-/* double product highlight section */
+/* Product highlight section */
 
 .product-highlight {
   padding: 0 2rem;
@@ -540,6 +540,8 @@ span {
   margin-bottom: 2rem;
 }
 
+/* article styling */
+
 article {
   padding: 2.4rem;
   margin: 1.6rem;
@@ -560,3 +562,76 @@ article p {
   font-family: 'Roboto', Helvetica;
   font-size: 1.4rem;
 }
+
+/* start footer styling */
+
+footer section:first-of-type {
+  background-color: #000000;
+  color: #fff;
+  
+  width: 100%;
+
+  padding: 2rem 0;
+}
+
+footer section:first-of-type section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  text-align: center;
+
+  margin: 0 auto;
+
+  min-width: 20rem;
+  max-width: 80%;
+  position: relative;
+}
+
+footer section:first-of-type section p {
+  font-family: 'Montserrat', Helvetica, sans-serif;
+
+  margin: 0 0 2rem;
+  font-size: 1.5rem;
+
+  width: 70%;
+}
+
+footer > a:first-of-type{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+
+  padding: 2rem 0;
+  align-items: center;
+  background-color: rgb(83, 86, 90);
+  color: #fff;
+  width: 100%;
+}
+
+footer section:nth-of-type(2) ul {
+  display: flex;
+  flex-direction: column;
+
+  margin-top: 1rem;
+}
+
+/* nog even checken */
+
+footer section:nth-of-type(2) ul > a, 
+footer section:nth-of-type(2) ul > a > li {
+  padding: 0 2rem;
+}
+
+footer section:nth-of-type(2) ul > a li{
+  margin: 0;
+  position: relative;
+  text-align: left;
+  font-weight: 700;
+  font-size: 1.4rem;
+  line-height: 4rem;
+  text-transform: uppercase;
+  color: black;
+  cursor: pointer;
+}
+

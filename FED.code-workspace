@@ -1,0 +1,18 @@
+{
+	"folders": [
+		{
+			"name": "Studentenwerk",
+			"path": "../Studentenwerk"
+		},
+		{
+			"name": "Donna-Baijens-isproject",
+			"path": "../../Downloads/Donna-Baijens-isproject"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Front-End-Dev-211"
+	}
+}
