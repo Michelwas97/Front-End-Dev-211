@@ -473,6 +473,10 @@ span {
   width: 100%;
 }
 
+.price {
+  font-weight: 700;
+}
+
 /* double preview css */
 .previewer-double {  
   margin: 0 2rem;
