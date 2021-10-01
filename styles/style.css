@@ -260,6 +260,10 @@ ol {
   list-style: decimal;
 }
 
+button {
+  all: unset;
+}
+
 /*  
 
 After this comment starts own written css
@@ -650,6 +654,8 @@ footer section:nth-of-type(2) ul {
   flex-direction: column;
 
   margin: 1rem 2rem 0;
+
+  border-bottom: 2px solid #e3e3e3;
 }
 
 footer section:nth-of-type(2) ul > a li{
@@ -666,5 +672,19 @@ footer section:nth-of-type(2) ul > a li{
   text-transform: uppercase;
   color: black;
   cursor: pointer;
+  border-top: 1px solid #e3e3e3;
+}
+
+footer section:last-of-type {
+  margin: 2rem 2rem 0;
+}
+
+footer section:last-of-type h3 {
+  font-family: 'Montserrat', Helvetica;
+  font-size: 1.4rem;
+  line-height: 1.1;
+  text-transform: uppercase;
+
+  margin-bottom: 1.5rem ;
 }
 
