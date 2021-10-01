@@ -269,26 +269,62 @@ Styling header and section
 
 */
 
+nav ul li:first-of-type button svg,
+nav ul li:last-of-type button svg {
+  width: 1.7rem;
+  height: 1.7rem;  
+}
+
+nav ul li:nth-of-type(2) a svg {
+  width: 4.7rem;
+  height: 3.5rem;
+}
+
 /* Start navigation css */
 
 nav {
+  z-index: 3;
+  position: fixed;
+
   display: flex;
-  width: 100%;
   flex-direction: column;
+  
+  width: 100%;
+  height: 6.8rem;
+
+  background-color: #fff;
 }
 
 nav ul {
   display: flex;
   flex-direction: row;
+  justify-content: center;
 
+  width: 100%;
+  height: 6.8rem;
+  margin: 0 2rem;
+
+  border-bottom: 0.1rem solid rgb(210, 210, 210);
+}
+
+nav ul li {
+  margin-top: 2rem;
   width: 100%;
 }
 
-  nav ul:first-of-type {
-    border-bottom: 0.1rem solid rgb(210, 210, 210);
+  nav ul li:first-of-type button:first-of-type {
+    margin-right: .5rem;
   }
 
-nav ul:nth-of-type(2) > a {
+header > ul {
+  display: flex;
+
+  width: 100%;
+
+  padding-top: 6.8rem;
+}
+
+header > ul > a {
   display: flex;
   justify-content: center;
   
@@ -613,17 +649,14 @@ footer section:nth-of-type(2) ul {
   display: flex;
   flex-direction: column;
 
-  margin-top: 1rem;
-}
-
-/* nog even checken */
-
-footer section:nth-of-type(2) ul > a, 
-footer section:nth-of-type(2) ul > a > li {
-  padding: 0 2rem;
+  margin: 1rem 2rem 0;
 }
 
 footer section:nth-of-type(2) ul > a li{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  
   margin: 0;
   position: relative;
   text-align: left;
