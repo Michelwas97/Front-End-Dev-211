@@ -22,7 +22,7 @@ Michel Wassing
 Zwarte piste
 
 #### Je focus:
-Als enthousiaste leerling wil ik beide responsive als surface plane proberen. Surface plan is daarin mijn prioriteit.
+Als enthousiaste/creatieve leerling wil ik surface plane proberen.
  
 </details>
 
@@ -30,13 +30,13 @@ Als enthousiaste leerling wil ik beide responsive als surface plane proberen. Su
 
 
 
-## Crunchyroll
+## Gymshark
 
 <details open>
-<summary>Gezien ik erg hou van het kijken naar anime wil ik crunchyroll na maken</summary>
+<summary>Gezien ik erg veel kleding van dit merk heb wil ik de site graag namaken.</summary>
 
 ### Je opdracht:
-link naar de website die je gaat namaken óf de naam/omschrijving van je eigen ontwerp
+https://eu.gymshark.com/
 
 #### Screenshot(s) van de eerste pagina (small screen): 
 **Hoofdpagina Crunchyroll (app, website niet compatible)**  
@@ -75,132 +75,71 @@ link naar de website die je gaat namaken óf de naam/omschrijving van je eigen o
 ## Voortgang 1 (week 2)
 
 <details>
-<summary>uitwerken voor 1e voortgang</summary>
+<summary>Door moeite te hebben met het vinden van motivatie heb ik hier alleen html structuur opgezet.</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
-
-### Agenda voor meeting
-samen met je groepje opstellen
-
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
-
+Structuur html is goed gelukt, wat minder goed ging was het toevoegen van css
 
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
+- "Begin met css anders kan je geen goede feedback krijgen"
 
 </details>
-
-
-
-
 
 ## Voortgang 2 (week 3)
 
 <details>
-<summary>uitwerken voor 2e voortgang</summary>
+<summary>In week 3 hebben we gewerkt met media queries en animeren, gezien ik hier nog niet veel ervaring in had was dit een goede leer ervaring. </summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
-
-### Agenda voor meeting
-samen met je groepje opstellen
-
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
+Verder ben ik nog niet verder gegaan met huiswerk aangezien ik met vormgeving ik behoorlijk moeite had.
 
 
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
+- "je moet nu wel echt een inhaal slag maken anders ga je het misschien niet halen"
 
 </details>
-
-
-
-
 
 ## Toegankelijkheidstest (week 4)
 
 <details>
-<summary>uitwerken na test in 8e voortgang</summary>
+<summary> On site hebben we doormiddel van visueel beperkende brillen en parkinson/spamse simulatie pads de toegankelijkheid kunnen testen van onze websites.</summary>
 
 ### Bevindingen
-Lijst met je bevindingen die in de test naar voren kwamen:
+Nauwkeurig moeten klikken op buttons
+leesbaarheid
 
-#### Titel eerste bevinding
-Hier korte omschrijving (met indien nodig een afbeelding)
+#### Nauwkeurigheid
+Té kleine click area's voor mensen die parkinson en/of spasmes. Het kan soms erg moeilijk kan zijn voor mensen met deze aandoening om de buttons/links goed aan te klikken.
 
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
-
-
-#### Titel tweede bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
+Door middel van het toevoegen van javascript om click area's te vergroten kan dit probleem opgelost worden.
 
 
-#### Titel volgende bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
+#### Leesbaarheid
+In mijn geval was de leesbaarheid goed, door de juiste lettergroottes en diktes was het goed te lezen door de visueel beperkende simulatie brillen.
 
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
-
-
-#### Titel nog een bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
+#### Tabben door de browser 
+Alle a'tjes en buttons waren goed gebruikt aldus was het mogelijk om door de gehele pagina te navigeren zonder muis te gebruiken.
 
 </details>
-
-
-
-
 
 ## Voortgang 3 (week 4)
 
 <details>
-<summary>uitwerken voor 3e voortgang</summary>
+<summary>Eerste pagina zo goed als af, tweede pagina snel nog ff maken en daarna aan javascript</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
-
-### Agenda voor meeting
-samen met je groepje opstellen
-
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
-
+Ik ben er bijna, ik moet nog wel even mijn states en buttons toevoegen en dan zit het er zo goed als op.
 
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
+- menu maken
+- states toevoegen aan buttons
+- niet vergeten tweede pagina
 
 </details>
 
@@ -211,7 +150,7 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 ## Eindgesprek (week 5)
 
 <details>
-<summary>uitwerken voor eindgesprek</summary>
+<summary>Het is mij niet gelukt om</summary>
 
 ### Stand van zaken
 hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
@@ -233,8 +172,7 @@ hier screenshot(s) van je eindresultaat
 
 Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
-1. bron 1
-2. bron 2
-3. ...
+1. Content (img's/video en svg's van gymshark zijn te vinden op 
+https://nl.gymshark.com/
 
 </details>
