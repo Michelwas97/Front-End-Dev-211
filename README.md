@@ -153,7 +153,7 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 <summary>Het is mij niet gelukt om de volledige website 100% af te krijgen tot mijn spijt. Dit komt door mijzelf en uitstel gedrag.</summary>
 
 ### Stand van zaken
-Een laatste inhaal slag gemaakt, dit was echter niet goed genoeg het gebruik van states missen nog en het menu werkt neit.
+Een laatste inhaal slag gemaakt, dit was echter niet goed genoeg het gebruik van states missen nog en het menu werkt niet helemaal.
 
 ### Screenshot(s)
 
