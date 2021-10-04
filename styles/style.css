@@ -165,7 +165,6 @@ html {
   height: 100%;
   font-size: 16px;
   font-size: 62.5%;
-  /* background-color: rgb(50, 68, 68); */
 }
 
 body {
@@ -264,6 +263,21 @@ button {
   all: unset;
 }
 
+/* source: https://blog.hubspot.com/website/hide-scrollbar-css */
+.info-slider ul,
+footer > section:nth-of-type(2) ul,
+#mens_shop header > ul:last-of-type {
+  -ms-overflow-style: none; /* for Internet Explorer, Edge */
+  scrollbar-width: none; /* for Firefox */
+  overflow-y: scroll; 
+}
+
+.info-slider ul::-webkit-scrollbar,
+footer > section:nth-of-type(2) ul::-webkit-scrollbar,
+#mens_shop header > ul:last-of-type::-webkit-scrollbar {
+  display: none; /* for Chrome, Safari, and Opera */
+}
+
 /*  
 
 After this comment starts own written css
@@ -289,9 +303,6 @@ nav ul li:nth-of-type(2) a svg {
 nav {
   z-index: 3;
   position: fixed;
-
-  display: flex;
-  flex-direction: column;
   
   width: 100%;
   height: 6.8rem;
@@ -306,18 +317,24 @@ nav ul {
 
   width: 100%;
   height: 6.8rem;
-  margin: 0 2rem;
 
   border-bottom: 0.1rem solid rgb(210, 210, 210);
 }
 
 nav ul li {
-  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 100%;
 }
 
   nav ul li:first-of-type button:first-of-type {
-    margin-right: .5rem;
+    margin-right: 2rem;
+  }
+
+  
+  nav ul li:last-of-type button {
+    margin-left: 5rem;
   }
 
 header > ul {
@@ -373,6 +390,10 @@ header > ul > a {
 
   background: linear-gradient(to bottom,rgba(255,255,255,0) 0,rgba(0,0,0,1) 100%);
 }
+
+  #mens_shop .previewer-large figure::after {
+    background: none;
+  }
 
 .previewer-large figure img, video {
   width: 100%;
@@ -446,7 +467,8 @@ span {
   margin-bottom: 2rem;
 }
 
-.product-highlight a {
+.product-highlight a,
+#mens_shop main section:last-of-type a {
   font-family: "Roboto";
   font-size: 1.6rem;
   font-weight: 700;
@@ -598,6 +620,8 @@ article h3 {
   font-size: 1.4rem;
 
   font-weight: 700;
+
+  text-transform: uppercase;
 }
 
 article p {
@@ -607,9 +631,7 @@ article p {
   font-size: 1.4rem;
 }
 
-/* start footer styling */
-
-footer section:first-of-type {
+#homepage main section:last-of-type {
   background-color: #000000;
   color: #fff;
   
@@ -618,7 +640,7 @@ footer section:first-of-type {
   padding: 2rem 0;
 }
 
-footer section:first-of-type section {
+main section:last-of-type section {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -632,7 +654,7 @@ footer section:first-of-type section {
   position: relative;
 }
 
-footer section:first-of-type section p {
+main section:last-of-type section p {
   font-family: 'Montserrat', Helvetica, sans-serif;
 
   margin: 0 0 2rem;
@@ -641,7 +663,9 @@ footer section:first-of-type section p {
   width: 70%;
 }
 
-footer > a:first-of-type{
+/* start footer styling */
+
+footer > a {
   display: flex;
   justify-content: center;
   text-align: center;
@@ -651,9 +675,25 @@ footer > a:first-of-type{
   background-color: rgb(83, 86, 90);
   color: #fff;
   width: 100%;
+
+  font-weight: 700;
+  font-size: 1.4rem;
+  line-height: 2rem;
+  text-transform: uppercase;
+} 
+
+/* extraction of inline svg css */
+
+footer > a > svg {
+  fill: white;
+  clip-rule: evenodd;
+  fill-rule: evenodd;
+  width: 1.4rem;
+  height: 1.4rem;
+  margin-left: 1.5rem;
 }
 
-footer section:nth-of-type(2) ul {
+footer section:first-of-type ul {
   display: flex;
   flex-direction: column;
 
@@ -662,7 +702,7 @@ footer section:nth-of-type(2) ul {
   border-bottom: 2px solid #e3e3e3;
 }
 
-footer section:nth-of-type(2) ul > a li{
+footer section:first-of-type ul > a li{
   display: flex;
   justify-content: space-between;
   width: 100%;
@@ -679,16 +719,277 @@ footer section:nth-of-type(2) ul > a li{
   border-top: 1px solid #e3e3e3;
 }
 
-footer section:last-of-type {
+footer section:nth-of-type(2) {
   margin: 2rem 2rem 0;
 }
 
-footer section:last-of-type h3 {
+footer > section:nth-of-type(2) ul {
+  display: flex;
+  width: 100%;
+  overflow: scroll;
+}
+
+footer > section:nth-of-type(2) h3 {
   font-family: 'Montserrat', Helvetica;
-  font-size: 1.4rem;
+  font-size: 1.4rem; 
   line-height: 1.1;
   text-transform: uppercase;
 
   margin-bottom: 1.5rem ;
 }
 
+footer > section:nth-of-type(2) a {
+  display: flex;
+  flex-direction: column;
+  
+  min-width: 17.5rem;
+
+  margin-right: 1rem;
+  background-color: #e7e7e7;
+}
+
+footer > section:nth-of-type(2) a img {
+  width: 100%;
+  height: 9.6rem;
+}
+
+footer > section:nth-of-type(2) a li h2 {
+  font-family: 'Montserrat', Helvetica;
+  font-weight: 700;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+
+/* socials styling */
+
+footer > ul:first-of-type {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  width: 100%;
+
+  margin-top: 3rem;
+}
+
+footer > ul:first-of-type li {
+  margin-right: 1rem;
+}
+
+footer > ul:first-of-type li a svg {
+  width: 2.4rem;
+  height: 2.4rem;
+}
+
+footer > div {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+
+  margin-top: 2rem;
+}
+
+div > button svg:first-of-type {
+  height: 1.6rem;
+  width: 1.6rem;
+
+  margin-right: .6rem;
+}
+
+div > button svg:last-of-type {
+  height: 1.6rem;
+  width: 1.6rem;
+}
+
+footer > ul:nth-of-type(2) {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding: 0;
+  margin: 2.5rem  0;
+}
+
+footer > ul:nth-of-type(2) li {
+  margin-bottom: .7rem;
+}
+
+footer > ul:nth-of-type(2) li a {
+  font-family: 'Roboto', Helvetica;
+  font-size: 1.4rem;
+  text-decoration: none;
+  font-weight: 600;
+
+  color: #53565a;
+
+  line-height: 1.9rem;
+}
+
+/* payment method styling */
+
+footer section:last-of-type {
+  width: 100%;
+}
+
+
+footer section:last-of-type > ul:last-of-type {
+  display: flex;
+  justify-content: center;
+
+  width: 100%;
+
+  margin-bottom: 1.5rem;
+}
+
+footer section:last-of-type > ul:last-of-type li {
+  display: inline;
+  margin-right: 1rem;
+}
+
+footer section:last-of-type > ul:last-of-type li svg{
+  height: 2.5rem;
+  width: auto;
+}
+
+footer section:last-of-type > ul:last-of-type li svg:last-of-type defs{
+  fill:#b2fce4;
+}
+
+footer section:last-of-type > ul:last-of-type li:last-of-type{
+  margin-right: 0;
+}
+
+/* copyright styling */
+
+footer > p {
+  font-size: 1.4rem;
+  text-align: center;
+  color: rgb(68, 68, 68);
+
+  padding: 1.5rem 2rem;
+
+  border-top: 0.1rem solid #e3e3e3;
+}
+
+
+/* styling mens shop page */
+
+#mens_shop header > h1 {
+  background: 0% 0% / cover rgb(245, 245, 245);
+
+  font-size: 1.4rem;
+
+  text-align: center;
+  padding-top: 6.8rem;
+  padding: 10rem 3.2rem 3.2rem 3.2rem;
+}
+
+#mens_shop header > h1 > span {
+  font-size: 2.5rem;
+}
+
+#mens_shop header > ul:first-of-type {    
+  padding: 1.5rem;
+  justify-content: space-between;
+}
+
+#mens_shop header > ul li {
+  font-size: 1.2rem;
+  font-weight: 700;
+  font-family: 'Montserrat', Helvetica;
+  text-transform: uppercase;
+  display: flex;
+  cursor: pointer;
+}
+
+  #mens_shop header > ul li:first-of-type svg {
+    margin-left: 1rem;
+  }
+
+  #mens_shop header > ul li:last-of-type button:first-of-type {
+    margin-right: 3rem;
+  }
+
+  #mens_shop header > ul:last-of-type {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+
+    padding: 2.5rem 0  0;
+    overflow-x: scroll;
+  }
+
+  #mens_shop header > ul:last-of-type li{
+    font-family: 'Montserrat', Helvetica;
+    font-size: 1.4rem;
+    font-weight: 700;
+
+    flex-shrink: 0;
+    padding: 0 1.5rem 1rem;
+    border-bottom: .1rem solid #BBBCBC;
+  }
+
+  #mens_shop header > ul:last-of-type li  {
+    position: relative;
+  }
+
+  #mens_shop header > ul:last-of-type li.active::before{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+    height: .3rem;
+    width: 100%;
+
+    background-color: black;
+  }
+
+#mens_shop .product-highlight {
+  margin-top: 1rem;
+}
+
+#mens_shop .previewer-large figure figcaption h2 {
+  font-size: 3.5rem;
+  text-transform: uppercase;
+}
+
+#mens_shop .previewer-large figure figcaption p {
+  font-size: 1.6rem;
+
+  margin-top: 2rem;
+}
+
+#mens_shop main > section:last-of-type {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 6rem 2rem 4rem;
+}
+
+#mens_shop main > section:last-of-type button {
+  padding: 1.5rem 3rem;
+  margin-bottom: 1.5rem;
+
+  align-self: center;
+
+  border-radius: 5rem;
+
+  color: white;
+  background-color: black;
+
+  font-size: 1.3rem;
+  font-weight: 800;
+
+  text-transform: uppercase;
+}
+
+#mens_shop main > section:last-of-type p {
+  font-size: 1.4rem;
+  font-family: 'Roboto', Helvetica;
+  
+  color: #444;
+  margin-top: 1.5rem;
+}
