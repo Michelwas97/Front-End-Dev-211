@@ -1,8 +1,10 @@
 var menuButton = document.getElementById("menu-button");
 
-function doeFormNeerEnOp(){
-	let hetFormulier = document.querySelector("form");
-	hetFormulier.classList.toggle("showForm");
+function openMenuAndClose(){
+	let form = document.querySelector("form");
+	form.classList.toggle("showForm");
 }
 
-menuButton.addEventListener("click", doeFormNeerEnOp);
+menuButton.addEventListener("click", openMenuAndClose);
+
+// source: https://codepen.io/michel-wassing/pen/BaZeErj
