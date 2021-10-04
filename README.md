@@ -150,14 +150,23 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 ## Eindgesprek (week 5)
 
 <details>
-<summary>Het is mij niet gelukt om</summary>
+<summary>Het is mij niet gelukt om de volledige website 100% af te krijgen tot mijn spijt. Dit komt door mijzelf en uitstel gedrag.</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Een laatste inhaal slag gemaakt, dit was echter niet goed genoeg het gebruik van states missen nog en het menu werkt neit.
 
 ### Screenshot(s)
 
-hier screenshot(s) van je eindresultaat
+<img src="images/1.png" width="375px" alt="screenshots website">
+<img src="images/2.png" width="375px" alt="screenshots website">
+<img src="images/3.png" width="375px" alt="screenshots website">
+<img src="images/4.png" width="375px" alt="screenshots website">
+<img src="images/5.png" width="375px" alt="screenshots website">
+<img src="images/6.png" width="375px" alt="screenshots website">
+<img src="images/7.png" width="375px" alt="screenshots website">
+<img src="images/8.png" width="375px" alt="screenshots website">
+<img src="images/9.png" width="375px" alt="screenshots website">
+<img src="images/10.png" width="375px" alt="screenshots website">
 
 </details>
 
