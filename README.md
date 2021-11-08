@@ -40,11 +40,11 @@ https://eu.gymshark.com/
 
 #### Screenshot(s) van de eerste pagina (small screen): 
 **Hoofdpagina Crunchyroll (app, website niet compatible)**  
-<img src="images/home.png" width="375px" alt="Home scherm">
+<img src="images/imgs not for site/home.png" width="375px" alt="Home scherm">
 
 #### Screenshot(s) van de tweede pagina (small screen):
 **Genre pagina Crunchyroll**  
-<img src="images/maleshop.png" width="375px" alt="Mannen winkel pagina">
+<img src="images/imgs not for site/maleshop.png" width="375px" alt="Mannen winkel pagina">
  
 </details>
 
@@ -58,13 +58,13 @@ https://eu.gymshark.com/
 <summary>uitwerken na afloop 2e werkgroep</summary>
 
 ### de hele pagina: 
-<img src="images/breakdown_schets_home.png" width="375px" alt="breakdown van de hele home pagina">
+<img src="images/imgs not for site/breakdown_schets_home.png" width="375px" alt="breakdown van de hele home pagina">
 
 ### Scherm 2: 
-<img src="images/Artboard_Copy.png" width="375px" alt="breakdown van een dynamisch deel">
+<img src="images/imgs not for site/Artboard_Copy.png" width="375px" alt="breakdown van een dynamisch deel">
 
 ### Menu (home) collapsed: 
-<img src="images/menu_collapsed.png" width="375px" alt="breakdown van een dynamisch deel">
+<img src="images/imgs not for site/menu_collapsed.png" width="375px" alt="breakdown van een dynamisch deel">
 
 </details>
 

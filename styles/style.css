@@ -117,27 +117,27 @@ h1,h2,h3,h4,h5,h6 {
   font-family: 'Montserrat Regular';
   font-style: normal;
   font-weight: 400;
-  src: url(../assets/Montserrat-Regular.ttf);
+  src: url('../assets/Montserrat-Regular.ttf');
 }
 
 @font-face {
   font-family: 'Montserrat Bold';
   font-style: normal;
   font-weight: 700;
-  src: url(../assets/Montserrat-Bold.ttf);
+  src: url('../assets/Montserrat-Bold.ttf');
 }
 
 @font-face {
   font-family: 'Roboto Regular';
   font-style: normal;
   font-weight: 400;
-  src: url(../assets/Montserrat-Regular.ttf);
+  src: url('../assets/Montserrat-Regular.ttf');
 }
 @font-face {
   font-family: 'Roboto Bold';
   font-style: normal;
   font-weight: 700;
-  src: url(../assets/Roboto-Bold.ttf);
+  src: url('../assets/Roboto-Bold.ttf');
 }
 
 /* Heading 1, Heading 2 */
@@ -955,10 +955,8 @@ header > fieldset {
 	position:absolute;
 	left:0;
 	top:0;
-	bottom:0;
 	
 	width: 100%;
-  height: 100%;
   background-color: var(--white);
 	transform:translateX(-100%);
 	
