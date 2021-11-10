@@ -949,7 +949,7 @@ footer > p {
 
 /* Hamburger menu styling */
 
-header > fieldset {
+header > div {
   z-index: 999;
 	
 	position:absolute;
@@ -963,35 +963,35 @@ header > fieldset {
 	transition:.5s;
 }
 
-  fieldset.showFieldset {
+  header > div.showSideNav {
     transform:translateX(0%);
   }
 
 
-header > fieldset > section:first-of-type {
+header > div > section:first-of-type {
   display: flex;
   padding: 3rem 2rem 1rem;
 }
 
-header > fieldset > section:first-of-type > button{
+header > div > section:first-of-type > button{
   display: flex;
   width: 4rem;
   justify-content: center;
   align-items: center;
 }
 
-  header > fieldset > section:first-of-type > button:first-of-type {
+  header > div > section:first-of-type > button:first-of-type {
     margin-right: 21rem;
     justify-content: flex-start;
   }
 
-header > fieldset > section:first-of-type > button > svg {
+header > div > section:first-of-type > button > svg {
   width: 1.8rem;
   height: 1.8rem;
 }
 
-header > fieldset > section:first-of-type,
-header > fieldset > section:nth-of-type(2) {
+header > div > section:first-of-type,
+header > div > section:nth-of-type(2) {
   display: flex;
   justify-content: center;
 
@@ -1003,27 +1003,27 @@ header > fieldset > section:nth-of-type(2) {
   margin: 0 0 1rem;
 }
 
-header > fieldset > section a {
+header > div > section a {
   text-align: center;
   width: 10rem;
   
   padding: 1rem;
 }
 
-header > fieldset > section:nth-of-type(2) a:first-of-type {
+header > div > section:nth-of-type(2) a:first-of-type {
   border-bottom: 0.2rem solid var(--black);
 }
 
-header > fieldset > section:nth-of-type(2) a:last-of-type {
+header > div > section:nth-of-type(2) a:last-of-type {
   border-bottom: 0.2rem solid var(--lighter-gray);
 }
 
-fieldset > nav {
+header > div > nav {
   flex: 2 1 0%;
   padding-top: 2.5rem;
 }
 
-fieldset > nav > ul > li > h2 {
+header > div > nav > ul > li > h2 {
   display: inline-block;
   margin: 0 0 .5rem;
   font-size: 1.6rem;
@@ -1032,12 +1032,12 @@ fieldset > nav > ul > li > h2 {
   text-transform: uppercase;
 }
 
-fieldset > nav > ul > li {
+header > div > nav > ul > li {
   padding: 0 1.6rem 2.8rem;
   break-inside: avoid;
 }
 
-fieldset > nav a {
+header > div > nav a {
   font-size: 1.6rem;
   font-weight: 600;
   font-family: 'Roboto Regular', Helvetica, sans-serif;
