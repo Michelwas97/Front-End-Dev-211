@@ -1,19 +1,21 @@
 # Procesverslag FED klas 211 Michel Wassing
 
-## Ik
+## Over mij
 
 <details open>
-<summary>Hier zal mijn gehele process gedurende vak terug te vinden zijn.</summary>
+<summary>Lees hier meer over mij.</summary>
 
 ### Auteur:
 Michel Wassing
 
 #### Je startniveau:
-Zwarte piste
+Ik heb gekozen voor de rode piste. Dit komt omdat ik ondanks mijn voorkennis van programmeren ik hier in nog niet veel uren gemaakt heb en mij nog niet zelfverzekerd genoeg voel om het lastigste van het vak te proberen. 
 
-#### Je focus:
-Als enthousiaste/creatieve leerling wil ik surface plane proberen.
- 
+#### Waar ik mij op ga richten dit vak:
+Voor het vak heb ik de opdracht gekregen om mijzelf te richten naar een aantal onderwerpen. Deze onderwerpen zijn:
+    - Het maken van een micro interactie
+    - Mobile first development
+    - Extra verzorgde surface plane 
 </details>
 
 
