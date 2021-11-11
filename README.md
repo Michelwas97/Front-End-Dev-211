@@ -8,7 +8,7 @@
 ### Auteur:
 Michel Wassing
 
-#### Je startniveau:
+#### Mijn startniveau:
 Ik heb gekozen voor de rode piste. Dit komt omdat ik ondanks mijn voorkennis van programmeren ik hier in nog niet veel uren gemaakt heb en mij nog niet zelfverzekerd genoeg voel om het lastigste van het vak te proberen. 
 
 #### Waar ik mij op ga richten dit vak:
