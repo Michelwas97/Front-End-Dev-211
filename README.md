@@ -13,6 +13,7 @@ Ik heb gekozen voor de rode piste. Dit komt omdat ik ondanks mijn voorkennis van
 
 #### Waar ik mij op ga richten dit vak:
 Voor het vak heb ik de opdracht gekregen om mijzelf te richten naar een aantal onderwerpen. Deze onderwerpen zijn:
+
 -Het maken van een micro interactie
 -Mobile first development
 -Extra verzorgde surface plane 
