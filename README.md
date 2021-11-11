@@ -105,6 +105,7 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 
 <details>
 <summary>Lees hier over de onsite les over toegankelijkheid</summary>
+
 On site hebben we doormiddel van visueel beperkende brillen en parkinson/spamse simulatie pads de toegankelijkheid kunnen testen van onze websites.
 
 ### Bevindingen
@@ -129,6 +130,7 @@ Alle a'tjes en buttons waren goed gebruikt aldus was het mogelijk om door de geh
 
 <details>
 <summary>Lees hier over mijn laatste voortgangsgesprek</summary>
+
 Eerste pagina zo goed als af, tweede pagina snel nog ff maken en daarna aan javascript
 
 ### Stand van zaken
