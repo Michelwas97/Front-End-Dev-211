@@ -159,16 +159,16 @@ Een laatste inhaal slag gemaakt, dit was echter niet goed genoeg het gebruik van
 
 ### Screenshot(s)
 
-<img src="images/screenshots/1.png" width="375px" alt="screenshots website">
-<img src="images/screenshots/2.png" width="375px" alt="screenshots website">
-<img src="images/screenshots/3.png" width="375px" alt="screenshots website">
-<img src="images/screenshots/4.png" width="375px" alt="screenshots website">
-<img src="images/screenshots/5.png" width="375px" alt="screenshots website">
-<img src="images/screenshots/6.png" width="375px" alt="screenshots website">
-<img src="images/screenshots/7.png" width="375px" alt="screenshots website">
-<img src="images/screenshots/8.png" width="375px" alt="screenshots website">
-<img src="images/screenshots/9.png" width="375px" alt="screenshots website">
-<img src="images/screenshots/10.png" width="375px" alt="screenshots website">
+-   <img src="images/screenshots/1.png" width="375px" alt="screenshots 1">
+-   <img src="images/screenshots/2.png" width="375px" alt="screenshots 2">
+-   <img src="images/screenshots/3.png" width="375px" alt="screenshots 3">
+-   <img src="images/screenshots/4.png" width="375px" alt="screenshots 4">
+-   <img src="images/screenshots/5.png" width="375px" alt="screenshots 5">
+-   <img src="images/screenshots/6.png" width="375px" alt="screenshots 6">
+-   <img src="images/screenshots/7.png" width="375px" alt="screenshots 7">
+-   <img src="images/screenshots/8.png" width="375px" alt="screenshots 8">
+-   <img src="images/screenshots/9.png" width="375px" alt="screenshots 9">
+-   <img src="images/screenshots/10.png" width="375px" alt="screenshots 10">
 
 </details>
 
@@ -179,11 +179,10 @@ Een laatste inhaal slag gemaakt, dit was echter niet goed genoeg het gebruik van
 ## Bronnenlijst
 
 <details open>
-<summary>continu bijhouden terwijl je werkt</summary>
+<summary>Hieronder zijn mijn bronnen te vinden.</summary>
 
-Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
-1. Content (img's/video en svg's van gymshark zijn te vinden op 
-https://nl.gymshark.com/
+1. Content zoals img's/video's en svg's van gymshark https://nl.gymshark.com/
+2. Flex box documentatie. https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 
 </details>
