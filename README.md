@@ -2,7 +2,7 @@
 
 ## Over mij
 
-<details open>
+<details>
 <summary>Lees hier meer over mij.</summary>
 
 ### Auteur:
@@ -24,18 +24,22 @@ Voor het vak heb ik de opdracht gekregen om mijzelf te richten naar een aantal o
 
 ## Gymshark
 
-<details open>
-<summary>Gezien ik erg veel kleding van dit merk heb wil ik de site graag namaken.</summary>
+<details>
+<summary>Lees hier meer over mijn gekozen website.</summary>
 
-### Je opdracht:
+### Rebuild a website:
 https://eu.gymshark.com/
 
-#### Screenshot(s) van de eerste pagina (small screen): 
-**Hoofdpagina Crunchyroll (app, website niet compatible)**  
+Voor het vak FED heb ik als CMD student/programmeur de opdracht gekregen om een zelf uitgekozen website na te maken. Hiervoor ik de website Gymshark gekozen. De reden hiervoor is omdat sporten mijn passie is en ik dit regelmatig doe.
+
+De kleding van Gymshark is wat ik bijna alleen maar draag binnen en buiten de sportschool. Daarom leek het mij leuk om iets na te maken waar ik regelmatig gebruik van maak.
+
+#### Screenshot(s) van de eerste pagina: 
+**Hoofdpagina Gymshark (mobile site)**  
 <img src="images/imgs not for site/home.png" width="375px" alt="Home scherm">
 
-#### Screenshot(s) van de tweede pagina (small screen):
-**Genre pagina Crunchyroll**  
+#### Screenshot(s) van de tweede pagina:
+**Mens shop pagina Gymshark**  
 <img src="images/imgs not for site/maleshop.png" width="375px" alt="Mannen winkel pagina">
  
 </details>
@@ -47,7 +51,7 @@ https://eu.gymshark.com/
 ## Breakdownschets (week 1)
 
 <details>
-<summary>uitwerken na afloop 2e werkgroep</summary>
+<summary>Bekijk hier mijn breakdownschetsen</summary>
 
 ### de hele pagina: 
 <img src="images/imgs not for site/breakdown_schets_home.png" width="375px" alt="breakdown van de hele home pagina">
@@ -67,22 +71,24 @@ https://eu.gymshark.com/
 ## Voortgang 1 (week 2)
 
 <details>
-<summary>Door moeite te hebben met het vinden van motivatie heb ik hier alleen html structuur opgezet.</summary>
+<summary>Lees hier over mijn eerste voortgangsgesprek.</summary>
 
 ### Stand van zaken
-Structuur html is goed gelukt, wat minder goed ging was het toevoegen van css
+Structuur html is goed gelukt, door goed de tijd te nemen voor de breakdownschetsen was ik al snel klaar met de structuur. Door andere vakken was het mij echter nog niet gelukt om te beginnen met het toevoegen van css.
 
 ### Verslag van meeting
-hier na afloop snel de uitkomsten van de meeting vastleggen
+Ik kreeg feedback van Robert, omdat ik alleen nog niet veel had gemaakt kon hij incomplete feedback geven en mij alleen vragen naar HTML gerelateerde onderwerpen. 
 
-- "Begin met css anders kan je geen goede feedback krijgen"
+Hier heb ik geleerd dat het makkelijker is om een a tag om een li item te wrappen zodat de gehele inhoud van de li klikbaar wordt. Verder was Robert onder de indruk van de tot in detail geneste HTML tags
+
+>Begin met css anders kan je geen goede feedback krijgen
 
 </details>
 
 ## Voortgang 2 (week 3)
 
 <details>
-<summary>In week 3 hebben we gewerkt met media queries en animeren, gezien ik hier nog niet veel ervaring in had was dit een goede leer ervaring. </summary>
+<summary>Lees hier over mijn tweede voortgangsgesprek. </summary>
 
 ### Stand van zaken
 Verder ben ik nog niet verder gegaan met huiswerk aangezien ik met vormgeving ik behoorlijk moeite had.
@@ -91,14 +97,15 @@ Verder ben ik nog niet verder gegaan met huiswerk aangezien ik met vormgeving ik
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- "je moet nu wel echt een inhaal slag maken anders ga je het misschien niet halen"
+>je moet nu wel echt een inhaal slag maken anders ga je het misschien niet halen
 
 </details>
 
 ## Toegankelijkheidstest (week 4)
 
 <details>
-<summary> On site hebben we doormiddel van visueel beperkende brillen en parkinson/spamse simulatie pads de toegankelijkheid kunnen testen van onze websites.</summary>
+<summary>Lees hier over de onsite les over toegankelijkheid</summary>
+On site hebben we doormiddel van visueel beperkende brillen en parkinson/spamse simulatie pads de toegankelijkheid kunnen testen van onze websites.
 
 ### Bevindingen
 Nauwkeurig moeten klikken op buttons
@@ -121,16 +128,17 @@ Alle a'tjes en buttons waren goed gebruikt aldus was het mogelijk om door de geh
 ## Voortgang 3 (week 4)
 
 <details>
-<summary>Eerste pagina zo goed als af, tweede pagina snel nog ff maken en daarna aan javascript</summary>
+<summary>Lees hier over mijn laatste voortgangsgesprek</summary>
+Eerste pagina zo goed als af, tweede pagina snel nog ff maken en daarna aan javascript
 
 ### Stand van zaken
-Ik ben er bijna, ik moet nog wel even mijn states en buttons toevoegen en dan zit het er zo goed als op.
+De website is zo goed als af, het enige wat er nog gedaan moet worden is het maken van een menu en de bijbehorende javascript.
 
 ### Verslag van meeting
-hier na afloop snel de uitkomsten van de meeting vastleggen
+Na feedback gekregen te hebben van de studentassistenten heb ik kunnen bevestigen dat states voor buttons niet verplicht zijn als de website deze zelf ook niet gebruiken. De focus state moet wel op zijn minst aanwezig zijn voor toegankelijkheid.
 
+Lijstje met todo's:
 - menu maken
-- states toevoegen aan buttons
 - niet vergeten tweede pagina
 
 </details>
@@ -149,16 +157,16 @@ Een laatste inhaal slag gemaakt, dit was echter niet goed genoeg het gebruik van
 
 ### Screenshot(s)
 
-<img src="images/1.png" width="375px" alt="screenshots website">
-<img src="images/2.png" width="375px" alt="screenshots website">
-<img src="images/3.png" width="375px" alt="screenshots website">
-<img src="images/4.png" width="375px" alt="screenshots website">
-<img src="images/5.png" width="375px" alt="screenshots website">
-<img src="images/6.png" width="375px" alt="screenshots website">
-<img src="images/7.png" width="375px" alt="screenshots website">
-<img src="images/8.png" width="375px" alt="screenshots website">
-<img src="images/9.png" width="375px" alt="screenshots website">
-<img src="images/10.png" width="375px" alt="screenshots website">
+<img src="images/screenshots/1.png" width="375px" alt="screenshots website">
+<img src="images/screenshots/2.png" width="375px" alt="screenshots website">
+<img src="images/screenshots/3.png" width="375px" alt="screenshots website">
+<img src="images/screenshots/4.png" width="375px" alt="screenshots website">
+<img src="images/screenshots/5.png" width="375px" alt="screenshots website">
+<img src="images/screenshots/6.png" width="375px" alt="screenshots website">
+<img src="images/screenshots/7.png" width="375px" alt="screenshots website">
+<img src="images/screenshots/8.png" width="375px" alt="screenshots website">
+<img src="images/screenshots/9.png" width="375px" alt="screenshots website">
+<img src="images/screenshots/10.png" width="375px" alt="screenshots website">
 
 </details>
 
