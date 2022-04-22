@@ -1,19 +1,19 @@
-var openButton = document.getElementById("open-button");
+const openButton = document.getElementById(`open-button`);
 
-function openMenu(){
-	let div = document.querySelector(".side-menu");
-	div.classList.toggle("showSideNav");
+const openMenu = () => {
+	let fieldset = document.querySelector(`fieldset`);
+	fieldset.classList.toggle(`showFieldset`);
 }
 
-openButton.addEventListener("click", openMenu);
+openButton.addEventListener(`click`, openMenu);
 
-var closeButton = document.getElementById("close-button");
+const closeButton = document.getElementById(`close-button`);
 
-function closeMenu(){
-	let div = document.querySelector(".side-menu");
-	div.classList.toggle("showSideNav");
+const closeMenu = () => {
+	let fieldset = document.querySelector(`fieldset`);
+	fieldset.classList.toggle(`showFieldset`);
 }
 
-closeButton.addEventListener("click", closeMenu);
+closeButton.addEventListener(`click`, closeMenu);
 
 // source: https://codepen.io/michel-wassing/pen/BaZeErj
